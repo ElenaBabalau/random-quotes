@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+:root {
+  --primary-color: #172321;
+  --secondary-color: #f3e3d9;
+  --hover-color: #e9dad0;
+}
+
+body {
+  background-color: #c98860;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 12px;
+  height: 17rem;
+  width: 46rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 0 auto;
+}
+
+#output {
+  margin: 1.5rem auto;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+#btn {
+  border: none;
+  margin: 3rem auto;
+  height: 3rem;
+  width: 15.5rem;
+  font-size: 1rem;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: var(--hover-color);
+}
